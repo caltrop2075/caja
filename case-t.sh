@@ -29,7 +29,7 @@ function fx_case-t ()
    ext=${fil##*.}                                  # extension
    nam=${fil%.*}                                   # name
    siz=${#nam}                                     # name length
-   reg="[^0-9a-zA-Z]"                              # regex white space detect
+   reg="[^0-9a-zA-Z']"                             # regex white space detect
    f=1                                             # ucase flag
    tag=${nam%%:*}                                  # tag detection
    pos=${#tag}
